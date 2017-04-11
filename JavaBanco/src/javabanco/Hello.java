@@ -2,8 +2,9 @@ package javabanco;
 
 public class Hello {
 
-		public static void main (String[] args) {
-			System.out.println("Hello");
-			// teste
-		}
+	public static void main(String[] args) {
+		System.out.println("Hello JavaBanco");
+
+	}
+
 }
