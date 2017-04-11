@@ -2,7 +2,7 @@ package javabanco.entidade;
 
 import java.util.ArrayList;
 
-public class ContaCorrente {
+	public class ContaCorrente {
 
 	private int saldo;
 	private ArrayList operacoes = new ArrayList<Float>();
@@ -27,3 +27,4 @@ public class ContaCorrente {
 		return operacoes;
 	}
 }
+

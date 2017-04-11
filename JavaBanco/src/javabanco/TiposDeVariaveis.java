@@ -28,11 +28,11 @@ public class TiposDeVariaveis {
 		
 		cc1.credito(umNumero);
 		
-		System.out.println("cc1.getSaldo() após crédito: " + cc1.getSaldo());
+		System.out.println("cc1.getSaldo() após o crédito: " + cc1.getSaldo());
 		
 		cc1.debito(20);
 		
-		System.out.println("cc1.getSaldo() após débito: " + cc1.getSaldo());
+		System.out.println("cc1.getSaldo() após o débito: " + cc1.getSaldo());
 		
 		System.out.println("cc1.extrato(): " + cc1.extrato());
 		
