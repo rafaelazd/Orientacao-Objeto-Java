@@ -22,7 +22,7 @@ import java.util.Date;
 	
 	public float credito(float valor){
 		saldo += valor;
-		Operacao op = new Operacao(valor,"CREDITO", new Date());
+		Operacao op = new Operacao(valor,"CRÉDITO", new Date());
 		operacoes.add(op);
 		return saldo;
 	}

@@ -35,6 +35,6 @@ public class Operacao {
 		return this.getValor() + ", " + this.getTipoOperacao() + ", " + this.getDataHora();
 	}
 	
-	
+	// teste
 	
 }

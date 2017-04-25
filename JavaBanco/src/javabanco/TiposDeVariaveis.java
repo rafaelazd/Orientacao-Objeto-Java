@@ -25,7 +25,7 @@ public class TiposDeVariaveis {
 		
 		System.out.println("contas: " + contas);
 		
-		ContaCorrente cc1 = new ContaCorrente(12345, "Marcos"); 
+		ContaCorrente cc1 = new ContaCorrente(12345, "Muriel"); 
 		System.out.println("cc1.getSaldo(): " + cc1.getSaldo());
 		
 		cc1.credito(umNumero);
@@ -46,7 +46,7 @@ public class TiposDeVariaveis {
 		
 		System.out.println("o1: " + o1.toString());
 		
-		ContaCorrente cc2 = new ContaCorrente(67890, "Paula");
+		ContaCorrente cc2 = new ContaCorrente(67890, "Pamela");
 		cc1.transferencia(10, cc2);
 		System.out.println("cc1.extrato(): " + cc1.extrato());
 		System.out.println("cc2.extrato(): " + cc2.extrato());
